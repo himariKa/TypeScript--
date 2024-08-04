@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+console.log("123");
+console.log(456);
+var myName = "ひまり";
+console.log(myName);
+console.log("\u79C1\u306E\u540D\u524D\u306F".concat(myName, "\u3067\u3059"));
+var num1 = 500;
+var num2 = 50;
+var answer = num1 / num2;
+console.log("num1\u306F".concat(num1));
+console.log("num2\u306F".concat(num2));
+console.log("\u8A08\u7B97\u7D50\u679Canswer\u306F".concat(answer));
+var num3 = num1 * 5;
+console.log("num1\u306F".concat(num1, "\u3067\u3059"));
+console.log("num1\u30925\u500D\u3059\u308B\u3068".concat(num3, "\u3067\u3059"));
