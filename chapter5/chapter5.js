@@ -1,13 +1,23 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+// 問い1
 var i = 0;
-var v = 0;
 while (i <= 10) {
-    var v_1 = i * i;
+    var v = i * i;
+    console.log(v);
+    i++;
 }
-console.log(v);
-var n = 0;
 for (var j = 0; j <= 10; j++) {
-    j * j;
+    var n = j * j;
+    console.log(n);
 }
-console.log(n);
+// 問い2
+var sum = 0;
+for (var j = 0; j <= 10; j++) {
+    var n = j * j;
+    sum += n;
+}
+console.log(sum);
+// 問い3
+// 問い4
+// 問い5
